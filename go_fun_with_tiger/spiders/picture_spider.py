@@ -10,6 +10,9 @@ EARLIEST_YEAR = 1985
 OUT_OF_RANGE_ERROR = "requested date is out of range"
 
 
+TEST = "test"
+
+
 
 class DayByDayPictureSpider(scrapy.Spider):
     name = "calvin_and_hobbes_pics"
