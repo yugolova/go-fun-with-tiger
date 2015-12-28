@@ -11,6 +11,10 @@ OUT_OF_RANGE_ERROR = "requested date is out of range"
 
 test = "master7"
 
+
+
+test_3 = ''
+
 class DayByDayPictureSpider(scrapy.Spider):
     name = "calvin_and_hobbes_pics"
 
