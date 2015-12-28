@@ -84,7 +84,7 @@ class DayByDayPictureSpider(scrapy.Spider):
     def get_urls_for_earliest_year(self):
         urls = []
 
-        #last november days till 1985 12
+        # november days till 1985 12
         day_range = range(18, monthrange(EARLIEST_YEAR, 11)[1] + 1)
         month_list = self.get_month_list(str(1985), str(11), day_range)
         urls.extend(month_list)
