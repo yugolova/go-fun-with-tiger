@@ -10,7 +10,7 @@ EARLIEST_YEAR = 1985
 OUT_OF_RANGE_ERROR = "requested date is out of range"
 
 
-TEST = "test 2"
+TEST = "test 3"
 
 
 class DayByDayPictureSpider(scrapy.Spider):
