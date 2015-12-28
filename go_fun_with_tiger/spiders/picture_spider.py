@@ -9,6 +9,10 @@ log = logging.getLogger(__name__)
 EARLIEST_YEAR = 1985
 OUT_OF_RANGE_ERROR = "requested date is out of range"
 
+test = "master0"
+
+test2 = "test"
+test2 = "test"
 
 
 class DayByDayPictureSpider(scrapy.Spider):
